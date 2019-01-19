@@ -1,0 +1,9 @@
+<!--pages/getUserInfo/getUserInfo.wxml-->
+<view class="container">
+  <view class="tips">
+    <image src="./auth.png" mode="widthFix"></image>
+    <text>当前功能需要您的授权 </text>
+    <text>获取用户头像和昵称</text>
+  </view>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="btn"> 快速绑定</button>
+</view>

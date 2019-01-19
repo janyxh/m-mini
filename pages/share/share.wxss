@@ -1,0 +1,94 @@
+/* pages/share/share.wxss */
+
+.container-share{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* 弹出面板 */
+.container-share .view{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #f5f5f5;
+  text-align: center;
+}
+.container-share .view .icon-close{
+  width: 30rpx;
+  height:30rpx;
+  position: absolute;
+  top:50rpx;
+  right: 40rpx;
+}
+.container-share .view .info{
+  background: #ffffff;
+}
+.container-share .view .title{
+  padding-top: 40rpx;
+  vertical-align: top;
+}
+.container-share .view .title-text{
+  color: #0B132E;
+  font-size: 32rpx;
+}
+.container-share .view .commission{
+  color: #ed403c;
+  font-size: 32rpx;
+}
+.container-share .view .tips{
+  padding: 30rpx 40rpx;
+  color: #9FA0A0;
+  font-size: 24rpx;
+  border-bottom: 1px solid #E7E7E7;
+  line-height: 1.8;
+}
+
+/* 分享 */
+.container-share .view .share{
+  padding: 32rpx 0;
+  display: flex;
+}
+.container-share .view .share .item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-share .share .wechat-wrap,
+.container-share .share .item > image{
+  width: 88rpx;
+  height: 88rpx;
+  margin-bottom: 20rpx;
+}
+.container-share .share .wechat-wrap{
+  position: relative;
+}
+.container-share .share .wechat-wrap button{
+  opacity: 0;
+}
+.container-share .share .wechat-wrap image{
+  width: 88rpx;
+  height: 88rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.container-share .pic-wechat{
+  background: url('./pic-wechat.png') no-repeat;
+}
+.container-share .share text{
+  font-size: 24rpx;
+  color: #9FA0A0;
+}
+
+/* 我的分销中心 */
+.btn-distribution{
+  background: #ffffff;
+  margin: 24rpx 0 60rpx 0;
+  border-radius: 0;
+}
+button.btn-distribution::after{
+  border: none;
+}

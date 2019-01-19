@@ -1,0 +1,9 @@
+<!--pages/getNumber/getNumber.wxml-->
+<view class="container">
+  <view class="tips">
+    <image src="./auth.png" mode="widthFix"></image>
+    <text>当前功能需要您的授权</text>
+    <text>获取绑定手机号</text>
+  </view>
+  <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="btn">快速绑定</button>
+</view>
